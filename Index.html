@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColSoft solutions - Consultora de Software</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- Encabezado de la página -->
+<header>
+    <h1>ColSoft solutions</h1>
+    <p>Soluciones inteligentes para tu negocio</p>
+</header>
+
+<!-- Menú de navegación con aria-label para accesibilidad -->
+<nav aria-label="Menú">
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
+
+
+<!-- Contenido -->
+<main id="inicio">
+
+<!-- Sección Nosotros -->
+   <section id="nosotros">
+    <h2>¿Quiénes somos?</h2>
+    <div class="nosotros-contenido">
+        <p>
+            Somos una consultora de software especializada en desarrollo web, análisis de datos, 
+            transformación digital e implementaciones con inteligencia artificial. 
+            Ayudamos a empresas a optimizar sus procesos mediante tecnología.
+        </p>
+
+        <!-- Imagen con texto alternativo para accesibilidad -->
+        <img src="img/software.jpg" alt="Equipo de desarrollo trabajando en proyectos de software">
+    </div>
+</section>
+
+<!-- Sección Servicios -->
+    <section id="servicios">
+    <h2>Servicios</h2>
+
+    <div class="servicios">
+
+        <article class="servicio">
+            <img src="img/web.jpg" alt="Desarrollo de páginas web">
+            <div>
+                <h3>Desarrollo Web</h3>
+                <p>Creación de sitios web modernos y aplicaciones web adaptadas a tu negocio.</p>
+            </div>
+        </article>
+
+        <article class="servicio reverse">
+            <img src="img/datos.jpg" alt="Análisis de datos">
+            <div>
+                <h3>Análisis de Datos</h3>
+                <p>Transformamos datos en información estratégica para la toma de decisiones.</p>
+            </div>
+        </article>
+
+        <article class="servicio">
+            <img src="img/consultoria.jpg" alt="Consultoría tecnológica">
+            <div>
+                <h3>Consultoría IT</h3>
+                <p>Asesoría tecnológica para mejorar procesos y eficiencia empresarial.</p>
+            </div>
+        </article>
+
+        <article class="servicio reverse">
+            <img src="img/automatizacion.jpg" alt="Automatización de procesos">
+            <div>
+                <h3>Automatización</h3>
+                <p>Optimización de tareas mediante herramientas digitales y software.</p>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+    <aside>
+        <h2>¿Por qué elegirnos?</h2>
+        <ul>
+            <li>Experiencia en múltiples tecnologías</li>
+            <li>Soluciones personalizadas</li>
+            <li>Enfoque en resultados</li>
+        </ul>
+    </aside>
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+
+        <!-- Formulario con labels -->
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="mensaje">Mensaje:</label>
+            <input type="text" id="mensaje" name="mensaje">
+
+            <button type="submit" aria-label="Enviar formulario de contacto">
+                Enviar
+            </button>
+        </form>
+    </section>
+
+</main>
+
+<!-- Pie de página -->
+<footer>
+    <p>&copy; 2026 ColSoft solutions - Consultora de Software</p>
+</footer>
+
+</body>
+</html>
